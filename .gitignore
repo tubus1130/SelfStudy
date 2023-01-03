@@ -1,4 +1,4 @@
-/bin/
-/.metadata/
-/.classpath/
-/.project/
+*.class
+bin/
+.classpath
+.project
