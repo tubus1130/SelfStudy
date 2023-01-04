@@ -1,4 +1,9 @@
-*.class
-bin/
-.classpath
-.project
+DataStructure/bin/
+DataStructure/.classpath
+DataStructure/.project
+DataStructure/src/module-info.java
+
+Java/bin/
+Java/.classpath
+Java/.project
+Java/src/module-info.java
