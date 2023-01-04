@@ -7,3 +7,8 @@ Java/bin/
 Java/.classpath
 Java/.project
 Java/src/module-info.java
+
+ComputerScience/bin/
+ComputerScience/.classpath
+ComputerScience/.project
+ComputerScience/src/module-info.java
