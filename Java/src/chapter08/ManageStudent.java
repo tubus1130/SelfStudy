@@ -5,7 +5,8 @@ public class ManageStudent {
 		Student[] student = null;
 		ManageStudent manage = new ManageStudent();
 		student = manage.addStudent(student);
-		manage.printStudents(student);
+//		manage.printStudents(student);
+		manage.checkEquals();
 	}
 	
 	public Student[] addStudent(Student[] student) {
@@ -20,6 +21,17 @@ public class ManageStudent {
 	public void printStudents(Student[] student) {
 		for(Student data : student) {
 			System.out.println(data);
+		}
+	}
+	
+	public void checkEquals() {
+		Student a = new Student("Kim", "Seoul", "01012345678", "kim@gmail.com");
+		Student b = new Student("Kim", "Seoul", "01012345678", "kim@gmail.com");
+		
+		if(a.equals(b)) {
+			System.out.println("Equal");
+		}else {
+			System.out.println("Not Equal");
 		}
 	}
 }
