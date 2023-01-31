@@ -12,7 +12,7 @@ public class ManageHeight {
 //		}
 		int j = 0;
 		while(j < 5) {
-			System.out.println("Class No.:" + (j+1));
+			System.out.println("Class No. : " + (j+1));
 			height.printAverage(j);
 			j++;
 		}
@@ -40,6 +40,6 @@ public class ManageHeight {
 			sum += height;
 		}
 		double average = sum / gradeHeights[classNo].length;
-		System.out.println(average);
+		System.out.println("Height average : " + average);
 	}
 }
