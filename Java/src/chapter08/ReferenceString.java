@@ -1,6 +1,8 @@
 package chapter08;
 
 public class ReferenceString {
+	String instanceVariable;
+	
 	public ReferenceString() {
 		
 	}
@@ -10,5 +12,13 @@ public class ReferenceString {
 	
 	public static void main(String[] args) {
 		ReferenceString reference = new ReferenceString();
+	}
+	
+	public String getString() {
+		return instanceVariable;
+	}
+	
+	public void setString(String str) {
+		this.instanceVariable = str;
 	}
 }

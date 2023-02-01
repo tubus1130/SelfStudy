@@ -4,13 +4,13 @@ public class ManageStudent {
 	public static void main(String[] args) {
 		Student[] student = null;
 		ManageStudent manage = new ManageStudent();
-		student = manage.addStudent(student);
-//		manage.printStudents(student);
-		manage.checkEquals();
+		student = manage.addStudent();
+		manage.printStudents(student);
+//		manage.checkEquals();
 	}
 	
-	public Student[] addStudent(Student[] student) {
-		student = new Student[3];
+	public Student[] addStudent() {
+		Student[] student = new Student[3];
 		student[0] = new Student("Lim");
 		student[1] = new Student("Min");
 		student[2] = new Student("Sook", "Seoul", "01012345678", "sook@gmail.com");
