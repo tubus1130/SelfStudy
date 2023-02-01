@@ -1,0 +1,17 @@
+<!-- XML -->
+<!--
+1. 제일위 한줄을 프롤로그라고한다.
+2. 닫힌태그가 계속해서 들어가기 때문에 JSON에 비해 무겁다.
+3. Javascript Object로 변환하기 위해서 JSON보다 더 많은 노력이 필요(JSON은 JSON.parse면 된다)
+-->
+<?xml version="1.0" encoding="UTF-8">
+<Playlist>
+    <Song>
+        <name>PANORAMA</name>
+        <rank>1</rank>
+    </Song>
+    <Song>
+        <name>ANTIFRAGILE</name>
+        <rank>2</rank>
+    </Song>
+</Playlist>
